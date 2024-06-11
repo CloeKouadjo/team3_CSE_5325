@@ -1,6 +1,7 @@
 #Sample code code:
 # calculator.py
- 
+import math
+
 def add(x, y):
     """Addition"""
     return x + y
@@ -19,4 +20,6 @@ def divide(x, y):
         raise ValueError("Cannot divide by zero!")
     return x / y
  
-
+def square_root(x):
+    """Square Root"""
+    return math.sqrt(x)
