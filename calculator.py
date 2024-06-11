@@ -1,5 +1,10 @@
 #Sample code code:
 # calculator.py
+"""
+Modified by :
+    - Cloe
+    - Yen
+"""
 import math
 
 def add(x, y):
